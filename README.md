@@ -1,2 +1,2 @@
 # SLNR
-**A super lightweight neural representation for large-scale 3D mapping**
+**A Super Lightweight Neural Representation for Large-scale 3D Mapping**
