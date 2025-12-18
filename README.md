@@ -8,7 +8,7 @@ Abstract: *We propose a new and ultra-lightweight neural representation with out
 
 ## Introduce
 
-This repository provides three core components: 
+This repository provides four core components: 
 - A local SDF representation without relying on latent features;
 - A parallel local SDF detection algorithm for real-time optimization;
 - A prune-expand strategy to enhance the adaptability;
