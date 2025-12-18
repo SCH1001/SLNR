@@ -32,7 +32,7 @@ if __name__ == "__main__":
     root_dir = workspace + cfg["Dataset"] ["data_dir"] 
     save_path = cfg["Dataset"] ["out_dir"]    #网络模型和mesh模型的保存路径
     if(not os.path.exists(save_path)):
-        os.mkdir(save_path)
+        os.makedirs(save_path)
     ht_path = save_path+"ht.pth"
 
     #加载数据
