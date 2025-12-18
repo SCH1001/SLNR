@@ -13,3 +13,5 @@ This repository provides three core components:
 - A parallel local SDF detection algorithm for real-time optimization;
 - A prune-expand strategy to enhance the adaptability;
 - Parallel point sampling along rays in a spatial hash grid.
+
+## Install & Run
