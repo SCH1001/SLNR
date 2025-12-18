@@ -1,0 +1,16 @@
+依赖Eigen-3.4，CUDA-11.8
+
+conda create --name slnr python=3.8
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+pip install open3d pypose opencv-python
+
+cd ./Thirdparty/sparse_hash/build
+//cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
+cmake -DCMAKE_PREFIX_PATH=/media/rvg/Disk2/anaconda3/envs/slnr/lib/python3.8/site-packages/torch  ..
+make -j12
+
+cd ./Thirdparty/gaussian_search/build
+cmake -DCMAKE_PREFIX_PATH=/media/rvg/Disk2/anaconda3/envs/slnr/lib/python3.8/site-packages/torch  ..
+make -j12
+
+python run.py --conf=configs/example.yaml
