@@ -38,3 +38,7 @@ make -j$(nproc)
 ```
 
 ## Run
+
+```bash
+python run.py --conf=configs/example.yaml
+```
