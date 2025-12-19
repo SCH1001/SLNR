@@ -24,11 +24,12 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 pip install open3d pypose opencv-python scikit-image
 ```
 
+Then, build the custom modules:
+
 ```bash
 cd ./Thirdparty/sparse_hash && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
-
 cd ./Thirdparty/gaussian_search && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
