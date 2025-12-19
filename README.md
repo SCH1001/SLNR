@@ -39,7 +39,7 @@ make -j$(nproc)
 
 ## Run
 
-First, download the Oxford Spires example data at here. Please refer to the [official websit](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/) for more detialed information and observe the license.
+First, download the [Oxford Spires Example Data](https://drive.google.com/file/d/1y8QIgbFzWQBxyzx9anUB9N9AyKXV3XfQ/view?usp=sharing). Please refer to the [official website](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/) for more detialed information and observe the license.
 
 ```bash
 python run.py --conf=configs/example.yaml
