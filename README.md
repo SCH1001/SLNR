@@ -14,4 +14,11 @@ This repository provides four core components:
 - A prune-expand strategy to enhance the adaptability;
 - Parallel point sampling along rays in a spatial hash grid.
 
-## Install & Run
+## Install 
+
+```bash
+cd modules/adaptive_weight
+python adaptivate_weight.py
+```
+
+## Run
