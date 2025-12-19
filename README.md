@@ -45,6 +45,6 @@ First, download the [Oxford Spires Example Data](https://drive.google.com/file/d
 python run.py --conf=configs/example.yaml
 ```
 
-![SLNR](assets/results1.png)
+![SLNR](assets/results_1.png)
 
 
