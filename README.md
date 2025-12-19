@@ -23,13 +23,13 @@ pip install open3d pypose opencv-python scikit-image
 ```
 
 ```bash
-cd ./Thirdparty/sparse_hash & mkdir build & cd build
+cd ./Thirdparty/sparse_hash && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
-make -j12
+make -j$(nproc)
 
-cd ./Thirdparty/gaussian_search & mkdir build & cd build
+cd ./Thirdparty/gaussian_search && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
-make -j12
+make -j$(nproc)
 ```
 
 ## Run
