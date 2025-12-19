@@ -17,8 +17,9 @@ This repository provides four core components:
 ## Install 
 
 ```bash
-cd modules/adaptive_weight
-python adaptivate_weight.py
+conda create --name slnr python=3.8
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+pip install open3d pypose opencv-python scikit-image
 ```
 
 ## Run
