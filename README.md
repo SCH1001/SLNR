@@ -29,15 +29,17 @@ Then, build the custom modules:
 ```bash
 # Related to the spatial hash grid
 cd ./Thirdparty/sparse_hash && mkdir build && cd build
-cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
+cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 # Related to the local sdf detection and optimization
 cd ./Thirdparty/gaussian_search && mkdir build && cd build
-cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
+cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 ```
 
 ## Run
+
+First, download the Oxford Spires example data at here.
 
 ```bash
 python run.py --conf=configs/example.yaml
