@@ -16,7 +16,7 @@ This repository provides four core components:
 
 ## Install 
 
-The code was tested on an RTX 4090 GPU with CUDA-11.8 equipped. First, install the Python environment:
+The code has been tested on an RTX 4090 GPU with CUDA-11.8 equipped. First, install the Python environment:
 
 ```bash
 conda create --name slnr python=3.8
