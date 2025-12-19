@@ -27,9 +27,11 @@ pip install open3d pypose opencv-python scikit-image
 Then, build the custom modules:
 
 ```bash
+# Related to the spatial hash grid
 cd ./Thirdparty/sparse_hash && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
+# Related to the local sdf detection and optimization
 cd ./Thirdparty/gaussian_search && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_envs/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
