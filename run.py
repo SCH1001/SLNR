@@ -11,7 +11,7 @@ import dataset, network, main_util
 from local_sdf import LocalSDF
 from tqdm import *
 
-torch.classes.load_library("Thirdparty/sparse_hash/build/libsvh.so")
+torch.classes.load_library("modules/sparse_hash/build/libsvh.so")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

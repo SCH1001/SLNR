@@ -6,7 +6,7 @@ from torch.autograd import Function
 from torch.cuda.amp import custom_bwd, custom_fwd 
 import pypose as pp
 
-torch.classes.load_library("Thirdparty/gaussian_search/build/libgs_search.so")
+torch.classes.load_library("modules/gaussian_search/build/libgs_search.so")
 gs_search_global = torch.classes.gs_search.GS_Search()   
 
 
