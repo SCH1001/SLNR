@@ -54,6 +54,6 @@ Some results are shown as below:
 
 ## Acknowledgement
 
-This work was largely inspired by [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
+This work was largely inspired by the neural point representation of [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and the splatting algrithm of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
 
 
