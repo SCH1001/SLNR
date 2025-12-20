@@ -48,7 +48,8 @@ The real-time optimization for basis SDF and geometric parameters is presented a
 
 ![SLNR](assets/optimize.gif)
 
-Some results are showed as below:
+Some results are shown as below:
+
 ![SLNR](assets/results.png)
 
 
