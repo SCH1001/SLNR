@@ -52,4 +52,8 @@ Some results are shown as below:
 
 ![SLNR](assets/results.png)
 
+## Acknowledgement
+
+This work was largely inspired by [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
+
 
