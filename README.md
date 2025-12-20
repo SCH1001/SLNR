@@ -56,4 +56,14 @@ Some results are shown as below:
 
 This work was largely inspired by the B-spline basis function used in [PoissonRecon](https://github.com/mkazhdan/PoissonRecon), the neural point representation in [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and the splatting algrithm in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
 
+## Citation
 
+```bibtex
+@inproceedings{shi20253d,
+  title={3D-SLNR: A Super Lightweight Neural Representation for Large-scale 3D Mapping},
+  author={Shi, Chenhui and Tang, Fulin and An, Ning and Wu, Yihong},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={27233--27242},
+  year={2025}
+}
+```
