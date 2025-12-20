@@ -67,3 +67,16 @@ This work was inspired by the B-spline basis function used in [PoissonRecon](htt
   year={2025}
 }
 ```
+If using the component of parallel point sampling along rays in a spatial hash grid, please cite:
+```bibtex
+@article{shi2023accurate,
+  title={Accurate implicit neural mapping with more compact representation in large-scale scenes using ranging data},
+  author={Shi, Chenhui and Tang, Fulin and Wu, Yihong and Jin, Xin and Ma, Gang},
+  journal={IEEE Robotics and Automation Letters},
+  volume={8},
+  number={10},
+  pages={6683--6690},
+  year={2023},
+  publisher={IEEE}
+}
+```
