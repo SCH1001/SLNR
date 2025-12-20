@@ -28,11 +28,11 @@ Then, build the custom modules:
 
 ```bash
 # Related to the spatial hash grid
-cd ./Thirdparty/sparse_hash && mkdir build && cd build
+cd ./modules/sparse_hash && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 # Related to the local sdf detection and optimization
-cd ./Thirdparty/gaussian_search && mkdir build && cd build
+cd ./modules/gaussian_search && mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 ```
@@ -44,6 +44,7 @@ First, download the [Oxford Spires Example Data](https://drive.google.com/file/d
 ```bash
 python run.py --conf=configs/example.yaml
 ```
+The real-time optimization for basis SDF and geometric parameters is presented as below. Each support point is colored by the z-axis orientation of the local coordinate system of the defined local SDF.
 
 ![SLNR](assets/optimize.gif)
 
