@@ -45,7 +45,7 @@ First, download the [Oxford Spires Example Data](https://drive.google.com/file/d
 python run.py --conf=configs/example.yaml
 ```
 
-![SLNR](https://github.com/SCH1001/SLNR/blob/main/assets/video.mp4)
+![SLNR](assets/video.gif)
 
 Some results are showed as below:
 ![SLNR](assets/results.png)
