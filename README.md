@@ -54,7 +54,7 @@ Some results are shown as below:
 
 ## Acknowledgement
 
-This work was largely inspired by the B-spline basis function used in [PoissonRecon](https://github.com/mkazhdan/PoissonRecon), the neural point representation in [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and the splatting algrithm in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
+This work was inspired by the B-spline basis function used in [PoissonRecon](https://github.com/mkazhdan/PoissonRecon), the neural point representation in [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and the splatting algorithm in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
 
 ## Citation
 
