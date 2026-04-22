@@ -37,7 +37,7 @@ cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 ```
 
-Note, in ``` ./Thirdparty/skimage```, we provide a modified skimage version, with modifications made in lines 161 and 187 of ```measure/_marching_cubes_lewiner.py```, to ignore areas without surfaces during the marching cubes process.
+Note that in ``` ./Thirdparty/skimage``` , we provide a modified version of scikit-image. Specifically, changes have been made at lines 161 and 187 of ``` measure/_marching_cubes_lewiner.py```  to ignore regions without surfaces during the marching cubes process.
 
 ## Run
 
