@@ -37,6 +37,8 @@ cmake -DCMAKE_PREFIX_PATH=your_env/lib/python3.8/site-packages/torch  ..
 make -j$(nproc)
 ```
 
+Note, in ``` ./Thirdparty```
+
 ## Run
 
 First, download the [Oxford Spires Example Data](https://drive.google.com/file/d/1y8QIgbFzWQBxyzx9anUB9N9AyKXV3XfQ/view?usp=sharing). Please refer to the [official website](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/) for more detialed information and observe the license. Then, put the data to `./data` folder. Finally, execute the following command:
