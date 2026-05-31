@@ -59,7 +59,18 @@ Some results are shown as below:
 This work was inspired by the B-spline basis function used in [PoissonRecon](https://github.com/mkazhdan/PoissonRecon), the neural point representation in [PIN-SLAM](https://github.com/PRBonn/PIN_SLAM) and the splatting algorithm in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). We hope that this work will inspire interested parties to develop more lightweight and efficient mapping methods for robotic spatial intelligence.
 
 ## Citation
-
+```bibtex
+@article{shi2026slnmapping,
+  title={SLNMapping: Super Lightweight Neural Mapping in Large-Scale Scenes},
+  author={Shi, Chenhui and Tang, Fulin and Wei, Hao and Wu, Yihong},
+  journal={International Journal of Computer Vision},
+  volume={134},
+  number={2},
+  pages={68},
+  year={2026},
+  publisher={Springer}
+}
+```
 ```bibtex
 @inproceedings{shi20253d,
   title={3D-SLNR: A Super Lightweight Neural Representation for Large-scale 3D Mapping},
